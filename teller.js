@@ -40,7 +40,7 @@ document.getElementById("destinyForm").addEventListener("submit", function(Event
     let threeCards = shuffled.slice(0,3);
 
     //Display personalized summary + caeds via DOM maipulation
-    document.getElementById("destinyresult") .innerHTML = `
+    document.getElementById("destinyResult") .innerHTML = `
         <h3>Hello $ {name} [${Zodiac}]</h3>
         <p>☄️Cosmic Luck Score: <strong>${luckScore}/100</strong> -
         <span style="color: ${status === 'Blessed'?'#d4af37':'#ff5555'}">${status}</span></p>
